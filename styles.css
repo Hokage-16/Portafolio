@@ -1,3 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Chela+One&family=Work+Sans:wght@100;300;400;600;800&display=swap');
+
 *{
-    background: red;
+    box-sizing: border-box;
+    font-family: 'work Sans';
+    margin: 0;
+    padding: 0;
 }
+
+html{
+    scroll-behavior: smooth;
+}
+
+.contenedor-header{
+    background: rgb(46, 45, 45);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+}
+
+header .logo a{
+    text-decoration: none;
+    font-size: 36px;
+    font-family: 'chela one';
+    color: #69CEA6;
+}
+
+header ul{
+    display: flex;
+    list-style: none;
+}
+
+header ul li a{
+    text-align: none;
+    color: aliceblue;
+    margin: 0 10px ;
+    padding: 3px;
+    transition: .5s;
+    text-decoration: none;
+
+}
+
+header ul li a:hover{
+    color:#69CEA6 ;
+}
+
+header .nav-responsive{
+    color: #ffffff;
+    padding:6px 8px;
+    border-radius: 8px;
+    background: #69CEA6;
+    display: none;
+    cursor: pointer;
+}
+
+
+
+
