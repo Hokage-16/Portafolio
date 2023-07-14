@@ -136,6 +136,80 @@ header .nav-responsive{
 
 }
 
+/*estilos de la seccion sobre mi*/
 
+.sobremi{
+    background-color:  rgb(46, 45, 45);
+    color: #ffffff;
+    padding: 50px 20px;
+}
+.sobremi .contenido-seccion{
+    max-width: 1100px;
+    margin: auto;
+}
+.sobremi h2{
+    font-family: 'chela one';
+    font-size: 45px;
+    text-align: center;
+    padding: 20px 0px;
+    color: #69CEA6;
+}
 
+.sobremi .contenido-seccion p{
+    font: 18px;
+    margin-bottom: 20px;
+    line-height: 22px;
+}
+.sobremi .contenido-seccion p span{
+    color: #69CEA6;
+    font-weight: bold;
+}
 
+.sobremi .fila{
+    display: flex;
+
+}
+.sobremi .fila .col{
+    width: 50%;
+}
+.sobremi .fila .col h3{
+    font-size: 28px;
+    font-family: 'Righteous';
+    margin-bottom: 25px;
+}
+.sobremi .fila .col ul{
+    list-style: none;
+}
+.sobremi .fila .col ul li{
+    margin: 12px 0px;
+}
+.sobremi .fila .col ul li strong{
+    display: inline-block;
+    color: #69CEA6;
+    width: 130px;
+}
+.sobremi .fila .col .contenedor-intereses{
+    display: flex;
+    flex-wrap: wrap; 
+}
+.contenedor-intereses .intereses{
+    width: 100px;
+    height: 100px;
+    background-color: #6e827a;
+    border-radius: 10px;
+    margin: 0 15px 15px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: .3s;
+    
+}
+.contenedor-intereses .intereses i{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.sobremi button{
+    cursorpointer
+}
