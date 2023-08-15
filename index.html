@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Portafolio  </title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="stylesR.css">
 </head>
 <body>
     <div class="contenedor-header">
@@ -14,17 +15,17 @@
             <div class="logo">
                 <a href="#">Ronaldo</a>
             </div>
-            <nav id="nav">
+            <nav id="nav" >
                 <ul>
-                    <li><a href="#inicio">INICIO</a></li>
-                    <li><a href="#sobremi">SOBRE MI</a></li>
-                    <li><a href="#skills">SKILLS</a></li>
-                    <li><a href="#curriculum">CURRICULUM</a></li>
-                    <li><a href="#portfolio">PORTFOLIO</a></li>
-                    <li><a href="#contacto">CONTACTO</a></li>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
                 </ul>
             </nav>
-            <div class="nav-responsive">
+            <div class="nav-responsive" onclick="mostrarOcultar()">
                 <i class="fa-sharp fa-solid fa-bars"></i>
             </div>
         </header>
@@ -37,7 +38,7 @@
             <h1>EDY RONALDO</h1>
             <H2>Ingeniero de software con IA - FrontEnd developer</H2>
             <div class="button-cv">
-                <button>Descargar CV</button>
+                <a target="_blank" href="https://drive.google.com/file/d/11w65V1gr_MBAM1s5gatoBJDIMaQr2zAy/view?usp=drive_link">Descargar CV</a>
             </div>
             <div class="redes">
                 <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
@@ -95,7 +96,7 @@
                             <span>Musica</span> 
                         </div>
                         <div class="intereses">
-                            <i class="fa-solid fa-user-helmet-safety"></i>
+                            <i class="fa-solid fa-helmet-safety"></i>
                             <span>Ingenieria Civil</span>
                         </div>
                         <div class="intereses">
@@ -109,13 +110,12 @@
                     </div>
                 </div>                  
             </div>
-            <button>
-                Descargar CV <i class="fa-solid fa-download"></i>
-                <span class="overlay"></span>
-            </button>
+       
+           
         </div>
 
     </section>
+    <script src="script.js"></script>
 
 
     
